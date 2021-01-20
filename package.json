@@ -1,0 +1,36 @@
+{
+  "name": "images-stored",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon service.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Marcos",
+  "email": "kotamgg@gmail.com",
+  "dependencies": {
+    "config": "^2.0.1",
+    "express": "~4.16.0",
+    "express-winston": "^3.0.1",
+    "helmet": "^3.12.1",
+    "cors": "^2.8.5",
+    "json-parser": "^1.1.5",
+    "mongoose": "^5.4.8",
+    "mongoose-timestamp": "^0.6.0",
+    "request": "^2.87.0",
+    "axios": "^0.19.0",
+    "redis": "^2.8.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "es6-plato": "^1.0.18",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "print-colors": "^1.0.1",
+    "superagent": "^3.8.3"
+  }
+}
